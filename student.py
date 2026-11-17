@@ -2,7 +2,7 @@ from person import Person
 
 
 class Student(Person):
-#სტუდენტის კლასი, რომელიც მემკვიდრეობით იღებს Person კლასს
+    # სტუდენტის კლასი, რომელიც მემკვიდრეობით იღებს Person კლასს
 
     def __init__(self, name, roll_number, grade):
         # მშობელი კლასიდან სახელის მიღება
@@ -33,10 +33,11 @@ class Student(Person):
         if not isinstance(new_grade, str) or new_grade.upper() not in ["A", "B", "C", "D", "F"]:
             raise ValueError("არასწორი შეფასება!")
 
+        # ვანახლებთ შეფასებას
         self.__grade = new_grade.upper()
 
     def display_info(self):
-        # პოლიმორფიზმი: მშობელი კლასის მეთოდის საკუთარი ვერსია
+        # პოლიმორფიზმი: მშობელი კლასის მეთოდის გადაფარვა
         print(f"სახელი: {self.get_name()}")
         print(f"სიის ნომერი: {self.__roll_number}")
         print(f"შეფასება: {self.__grade}")

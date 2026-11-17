@@ -1,7 +1,7 @@
+from menu import Menu
 
-from menu import run_menu
 
-
-# მეინ პროგრამა
+# მთავარი პროგრამა
 if __name__ == "__main__":
-    run_menu()
+    menu = Menu()
+    menu.run_menu()

@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Nino",
+        "roll_number": 1,
+        "grade": "A"
+    },
+    {
+        "name": "Giorgi",
+        "roll_number": 2,
+        "grade": "B"
+    },
+    {
+        "name": "ლევან",
+        "roll_number": 3,
+        "grade": "A"
+    },
+    {
+        "name": "მარიამ",
+        "roll_number": 4,
+        "grade": "C"
+    },
+    {
+        "name": "Saba",
+        "roll_number": 5,
+        "grade": "D"
+    },
+    {
+        "name": "Irina",
+        "roll_number": 6,
+        "grade": "A"
+    },
+    {
+        "name": "Nika",
+        "roll_number": 7,
+        "grade": "A"
+    }
+]
